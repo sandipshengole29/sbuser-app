@@ -1,0 +1,25 @@
+Install Angular 13:
+Install:
+npm i -g @angular/cli@13.3.x
+
+Uninstall:
+npm uninstall -g @angular/cli@13.3.x
+
+clear cache:
+npm cache clean --force
+
+Create new project:
+ng new first-angular-app
+
+Install angular material:
+npm i @angular/cdk@13.3.9 --save
+npm i @angular/material@13.3.9 --save
+npm i @angular/animations@13.3.11 --save
+
+Install all angular material components and update package json:
+ng add @angular/material
+
+restart angular server
+
+Install all packages:
+npm install / npm i
