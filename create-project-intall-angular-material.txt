@@ -23,3 +23,6 @@ restart angular server
 
 Install all packages:
 npm install / npm i
+
+generate new component:
+ng generate component home / ng g c home

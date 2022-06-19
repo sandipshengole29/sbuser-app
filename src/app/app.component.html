@@ -1,10 +1,9 @@
-<div>
-  <section>
-    <div class="parent">
-      <div class="addMrgin"><b>WelCome to Application</b></div>
-      <button mat-raised-button color="primary">Login Application</button>
-    </div>
-  </section>
+<app-header></app-header>
+<div class="container">
+  <mat-grid-list cols="3" rowHeight="1:1">
+    <mat-grid-tile>Left Side Menu Bar</mat-grid-tile>
+    <mat-grid-tile><router-outlet></router-outlet></mat-grid-tile>
+    <mat-grid-tile>Right Side Menu Bar</mat-grid-tile>
+  </mat-grid-list>
 </div>
-
-<router-outlet></router-outlet>
+<app-footer></app-footer>
